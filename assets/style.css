@@ -179,12 +179,24 @@ html, body { font-family: "Raleway", sans-sarif;
 
 .grid-item{
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 .grid-item:last-child{
     margin:0;
 }
 
-
+.lead-heading{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgb(137,216,240);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.btn:hover{
+    color: whitesmoke;
+    background: rgb(137,216,240);
+}
 
 
 
