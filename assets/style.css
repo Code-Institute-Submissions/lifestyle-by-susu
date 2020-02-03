@@ -335,7 +335,16 @@ margin: 0 auto;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
     margin: 20px;
+    
 }
+ .footer-contact{
+     text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    margin: 20px;
+    text-align: end;
+
+ }
 .footer-link a {
     text-decoration: none;
     color: inherit;
