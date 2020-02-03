@@ -206,6 +206,7 @@ font-size: small;
 .content-justify{
     justify-content: space-between !important;
 }**/
+ 
 .center {
   margin: auto;
   width: 80%;
@@ -220,25 +221,51 @@ font-size: small;
   text-decoration-color: rgb(137,216,240);
   position:relative;
 }
-.question-sec-ul li {
-    
-    
+ .sec-align{
+     position: relative;
+ }
+
+.question-sec {
+ line-height: 4;
+   margin: 15px;
+    }
+.question-sec li {
     list-style: none;
+    text-align: justify;
 }
 
-.left {
+.right {
   position: absolute;
-  left: 0px;
+  right: 0px;
   width: 324px;
-  border: 3px solid #73AD21;
+  border: none;
   padding: 10px;
 }
+.left{
+    width: 324px;
+    border: none;
+    padding: 10px;
+}
+ .img-container{
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-collapse: rgb(137,216,240);
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 20px;
+}
+ .img-background{
+     background: no-repeat center center;
+     border-radius: 50%;
+     height: 100%;
+
+ }
 
 
+ /*--------------------------------------------recipe card section*/
 
-/*--------------------------------------------recipe card section*/
-
- .grid-item{
+  .grid-item{
     margin-bottom: 20px;
 }
 
@@ -274,12 +301,8 @@ margin: 0 auto;
     color: whitesmoke;
     position: relative;
 }
-.social-heading{
-    text-transform: uppercase;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 500;
-    margin: 20px;
-}
+
+
 .social-links {
     padding-bottom: 10px;
 }
@@ -306,11 +329,13 @@ margin: 0 auto;
 .inline-block{
     display: inline-block;
 }
- .content {
- 	padding-left: 15px;
-     margin-left: 100px;
-     }
-
+ 
+.social-heading{
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    margin: 20px;
+}
 .footer-link a {
     text-decoration: none;
     color: inherit;
@@ -337,3 +362,16 @@ margin: 0 auto;
  }
 
  
+
+ .footer-align{
+     position: relative;
+
+ }
+ .footer-right-align{
+     position: absolute;
+  right: 0px;
+  
+  border: none;
+  
+
+ }
