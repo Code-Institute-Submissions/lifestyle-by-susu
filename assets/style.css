@@ -55,7 +55,15 @@ font-size: small;
 
 
 }
+.center-align {
+  margin: auto;
+  width: 80%;
+  border: none;
+  padding: 10px;
+  
+}
 
+ .reusable-card{ border: none;}
 
 /*--------------------------------------------general styles*/
 
@@ -189,7 +197,7 @@ font-size: small;
    font-family: "Raleway", sans-sarif;
   
     top: 100px;
-    background: rgba(255, 107, 255, 0.6);
+    background: rgba(230, 100, 200, 0.4);
   position:relative;
 }
 
@@ -261,13 +269,58 @@ font-size: small;
      height: 100%;
 
  }
+ .ask{
+  width: 100%;
+  max-width: 930px;
+  margin: 50px auto;
+  }
+  .d-flex {display: flex !important;
+  }
+  .justify-content {
+   justify-content: space-between !important;
+   }
+
+ .list-styl{
+ list-style: none;
+   padding-left: 0;
+   }
+
+ .ask ul li { position: relative;
+   padding-left: 35px;
+   line-height: 3;
+ }
+
+ .mid-sec{
+  max-width: 700px;
+  margin: 50px auto;
+  }
+ .sec-img{
+  max-width: 300px;
+  max-height: 300px;
+  }
+  .mid-sec-card{
+    max-width: 300px;
+    border: none;
+  }
+ /*--------------------------------------------form section*/
 
 
- /*--------------------------------------------recipe card section*/
+#form-bg-image {
+ 
+    width: 100%;
+    overflow: hidden;
+  background-image: url("/workspace/1st-milestone-project/assets/images/lunge.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ height: 900px;
+}
+  /*--------------------------------------------recipe card section*/
 
   .grid-item{
     margin-bottom: 20px;
-}
+    }
+  
 
 .grid-item:last-child{
     margin:0;
