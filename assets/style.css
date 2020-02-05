@@ -232,6 +232,12 @@ font-size: small;
   text-decoration-color: rgb(137,216,240);
   position:relative;
 }
+.button-align{
+    margin: auto;
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
  .sec-align{
      position: relative;
  }
@@ -307,16 +313,51 @@ font-size: small;
   }
  /*--------------------------------------------form section*/
 
+.form{
+    width: 50%;
+    margin: 0 auto;
+}
 
-#form-bg-image {
+.form-bg-image {
  
     width: 100%;
-    overflow: hidden;
-  background-image: url("/workspace/1st-milestone-project/assets/images/lunge.jpeg");
+    
+  background-image: url("../assets/images/woman-lifting-barbell.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
  height: 900px;
+}
+.form-align{
+    margin: 0 auto;
+    width: 50%;
+    color: whitesmoke;
+    background: rgba(60, 60, 60, 0.6);
+    position: absolute; 
+    left: 20%;
+    top: 100px;
+    padding: 30px;
+    border: none;
+}
+.input-txt{
+    background: transparent;
+    color: whitesmoke;
+    width: 100%;
+    margin: 5px 0 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.form-heading{
+    background: transparent;
+    color: whitesmoke;
+    margin: 20px;
+
+}
+.label{
+    margin-bottom: 0;
+}
+.custom-control-inline{
+    margin: 15px;
 }
   /*--------------------------------------------recipe card section*/
 
