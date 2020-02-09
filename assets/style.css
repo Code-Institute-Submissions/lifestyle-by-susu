@@ -370,7 +370,7 @@ font-size: small;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
- height: 900px;
+ height: 1100px;
 }
 .form-align{
     margin: auto;
@@ -404,7 +404,8 @@ font-size: small;
     margin: 15px;
 }
  @media(max-width:420px) {
- .form-align{ width: 100%;}
+ .form-align{ width: 100%;
+    top: 0; }
   }
   /*--------------------------------------------recipe card section*/
 
