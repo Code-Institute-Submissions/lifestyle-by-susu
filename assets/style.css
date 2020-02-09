@@ -83,7 +83,10 @@ font-size: small;
     line-height: 2;
     letter-spacing: 1px;
  }
- 
+
+ .margin{
+  margin-top: 15px;
+ }
  
 
 /*--------------------------------------------general styles*/
@@ -204,8 +207,15 @@ font-size: small;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-}
-#hero-cover{
+  animation-name: hero-img;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 2;
+ }
+
+ 
+
+ #hero-cover{
      height: 600px;
               width: 100%;
     overflow: hidden;
@@ -222,10 +232,20 @@ font-size: small;
    font-family: "Raleway", sans-sarif;
   
     top: 200px;
-    background: rgba(230, 100, 200, 0.4);
+    background: rgba(255, 107, 255, 0.4);
   position:relative;
 }
+ 
+  @keyframes hero-img {
+  from {
+    transform: scale(1);
 
+  }
+  to {
+    transform: scale(1.1);
+
+  }
+ }
 
 /*--------------------------------------------hero-section*/
 
@@ -446,7 +466,7 @@ margin: 0 auto;
     line-height: 7px;
     text-align: center;
     color: antiquewhite;
-    background-color: #ff6bffbb;
+    background-color: #fa55fabb;
     transition: all .40s ease-in-out;
     -webkit-transition: all .40s ease-in-out;
     -moz-transition: all .40s ease-in-out;
@@ -489,7 +509,7 @@ margin: 0 auto;
     line-height: 7px;
     text-align: center;
     color: antiquewhite;
-    background-color: #ff6bffbb;
+    background-color: #fa55fabb;
     transition: all .40s ease-in-out;
     -webkit-transition: all .40s ease-in-out;
     -moz-transition: all .40s ease-in-out;
