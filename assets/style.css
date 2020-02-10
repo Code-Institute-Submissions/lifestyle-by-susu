@@ -91,13 +91,15 @@ font-size: small;
 
 /*--------------------------------------------general styles*/
 
+/*--------------------------------------------logo styles*/
+ .logo-image{
+ width: 30%;}
+
+/*--------------------------------------------logo closed styles*/
 
 
 
-
-
-
-.container-fluid{
+ .container-fluid{
     padding: 0;
 }
 .dropdown {
@@ -124,7 +126,7 @@ font-size: small;
 
 /*--------------------------------------------nav*/
 .navbar-bg-color {
-    background-color: rgb(255, 107, 255);
+    background-color: #cc52cc;
   
 }
 
@@ -446,7 +448,7 @@ margin: 0 auto;
 }
  /*--------------------------------------------footer*/
  footer {
-    background-color: rgb(255, 107, 255);
+    background-color: #cc52cc;
     min-height: 100px;
     margin: 0;
     color: whitesmoke;
