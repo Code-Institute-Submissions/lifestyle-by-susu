@@ -55,7 +55,7 @@ main{
     letter-spacing: 2px;
 }
 .headings small{
-text-transform: lowercase;
+ text-transform: lowercase;
 font-size: small;
 }
 .sub-heading{
@@ -88,6 +88,17 @@ font-size: small;
   margin-top: 15px;
  }
  
+ .landscape{
+  width: 50%;
+  height: 30%;
+  margin: auto;
+  }
+
+   @media(max-width:420px) {
+ .landscape{ width: 100%;
+      
+     }
+  }
 
 /*--------------------------------------------general styles*/
 
@@ -131,6 +142,9 @@ font-size: small;
   transition: all .40s ease-in-out;
 }
 .dropdown:hover .dropdown-menu {display: block;}
+
+.dropdown-menu a:hover{
+ background: #cc52cc;}
 
 /*--------------------------------------------nav*/
 .navbar-bg-color {
@@ -198,7 +212,7 @@ font-size: small;
 .navbar-toggler {
     font-size: 1.25rem;
     line-height: 1;
-    background-color: wheat;
+    
     padding: 0.25rem 0.75rem;
     border-width: 1px;
     border-style: solid;
@@ -365,6 +379,17 @@ font-size: small;
     max-width: 300px;
     border: none;
   }
+ @media(max-width:420px) {
+ .mid-sec{ margin: auto;
+       padding: 40px;
+     }
+  }
+    @media(max-width:420px) {
+ .ask{ display: block !important;
+      margin: 10px auto;
+      
+     }
+  }
  /*--------------------------------------------form section*/
 
 .form-main{
@@ -444,6 +469,7 @@ margin: 0 auto;
 
 #article-image{
     width: 100%;
+    overflow: hidden;
 }
 /*--------------------------------------------success story*/
 
