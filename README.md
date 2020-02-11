@@ -45,14 +45,20 @@ It is a signup form that gives you the opportunity to share your health & fitnes
 [Ian lunn](http://ianlunn.github.io/Hover/)
 
 ## Testing
-##### Share your journey:
+
 1. Share your journey clicked:    
 Tried submitting an empty form but the required field set won’t let it happen unless all the requirements are satisfied.
 2. Everything link and shortcut is working as intended.   
 Lastly the project is responsive on all devices thanks to the use of bootstraps mobile first approach. 
+3. Tested on google deveploment tool for all the reponsive breakpoints.    
+4. Tested on mozilla firefox, internet explorer, Brave web browser    
+5. Tested on two different mobile devices.
 
 ## Deployment
-Ater pushing from my workspace to my git repository, then  settings via my repository: github pages then master branch.   
+Ater pushing from my workspace to my git repository, then  settings via my repository: github pages then master branch.    
+##### local deployment    
+By using the git clone feature, copy the link:  go to your terminal then your directory, git clone paste the link you copied. 
+
 
 
 ## Credits
