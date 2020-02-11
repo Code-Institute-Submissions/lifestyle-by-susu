@@ -95,7 +95,7 @@ font-size: small;
   .navbar-brand{
       font-family: 'Great Vibes', cursive;
       color: whitesmoke;
-      font-size: 22px;
+      font-size: 24px;
   }
   a:hover {
       color: rgb(137,216,240);
@@ -256,6 +256,8 @@ font-size: small;
 
   }
  }
+
+ 
 
 /*--------------------------------------------hero-section*/
 
