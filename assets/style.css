@@ -242,7 +242,7 @@ font-size: small;
   animation-name: hero-img;
   animation-duration: 7s;
   animation-fill-mode: forwards;
-  animation-iteration-count: 2;
+  animation-iteration-count: 1;
 }
 
  
