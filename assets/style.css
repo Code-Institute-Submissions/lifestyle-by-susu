@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,400,500,600,700|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,400,500,600,700|Great+Vibes|Raleway&display=swap');
 
 
 html {
@@ -43,7 +43,7 @@ main{
 
 .crd-button{
     border-radius: 10px;
-    background-color: rgba(255, 107, 255, 0.849);
+    background-color: #d653d6;
     color: whitesmoke;
 }
 
@@ -92,8 +92,16 @@ font-size: small;
 /*--------------------------------------------general styles*/
 
 /*--------------------------------------------logo styles*/
- .logo-image{
- width: 30%;}
+  .navbar-brand{
+      font-family: 'Great Vibes', cursive;
+      color: whitesmoke;
+      font-size: 22px;
+  }
+  a:hover {
+      color: rgb(137,216,240);
+      
+  }
+
 
 /*--------------------------------------------logo closed styles*/
 
@@ -108,7 +116,7 @@ font-size: small;
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #ddd;
+  background-color: #cc52cc;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
