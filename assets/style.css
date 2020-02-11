@@ -12,7 +12,8 @@ html {
   box-sizing: inherit;
   }
 
-  .group:after {
+
+  .group:after {/*------css tricks*/
   content: "";
   display: table;
   clear: both;
@@ -58,12 +59,13 @@ main{
  text-transform: lowercase;
 font-size: small;
 }
+
 .sub-heading{
     text-decoration: underline;
     text-decoration-color: rgb(137,216,240);
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
- }
+}
 
  .center-align {
   margin: auto;
@@ -72,33 +74,36 @@ font-size: small;
   padding: 10px;
   
 }
+
 .col-center{
      margin: auto;
 
 }
- .reusable-card{ border: none;}
+ .reusable-card{ border: none;
+ 
+}
 
  .d-inline-block {
     display: inline-block!important;
     line-height: 2;
     letter-spacing: 1px;
- }
+}
 
  .margin{
   margin-top: 15px;
- }
+}
  
  .landscape{
   width: 50%;
   height: 30%;
   margin: auto;
-  }
+}
 
-   @media(max-width:420px) {
+ @media(max-width:420px) {
  .landscape{ width: 100%;
       
-     }
-  }
+}
+}
 
 /*--------------------------------------------general styles*/
 
@@ -107,11 +112,11 @@ font-size: small;
       font-family: 'Great Vibes', cursive;
       color: whitesmoke;
       font-size: 25px;
-  }
+}
   a:hover {
       color: rgb(137,216,240);
       
-  }
+}
 
 
 /*--------------------------------------------logo closed styles*/
@@ -141,12 +146,14 @@ font-size: small;
   display: block;
   transition: all .40s ease-in-out;
 }
-.dropdown:hover .dropdown-menu {display: block;}
+.dropdown:hover .dropdown-menu {display: block;
+}
 
 .dropdown-menu a:hover{
- background: #cc52cc;}
+ background: #cc52cc;
+}
 
-/*--------------------------------------------nav*/
+
 .navbar-bg-color {
     background-color: #cc52cc;
   
@@ -157,8 +164,7 @@ font-size: small;
 }
 
 #nav-logo #nav-ul{
-    line-height: 30px;
-   
+    line-height: 30px;  
 }
 
 #nav-ul {
@@ -181,8 +187,7 @@ font-size: small;
     font-weight: 300;
     letter-spacing: 2px;
     margin-right: 15px;
-    border-bottom: 1px solid whitesmoke;
-    
+    border-bottom: 1px solid whitesmoke;   
 }
 
 .nav-item a i {
@@ -192,12 +197,15 @@ font-size: small;
     font-size: 30px;
     text-align: center;
 }
+
 #nav-ul .nav-item a:hover{
     color: rgb(137,216,240);
 }
+
 #nav-ul .nav-item a i:hover{
     color: rgb(137,216,240);
 }
+
 .dropdown-toggle::after {
     display: none;
     margin-left: 0.255em;
@@ -208,7 +216,7 @@ font-size: small;
     border-bottom: 0px;
     border-left: 0.3em solid transparent;
 }
-/*--------------------------------------------nav*/
+
 .navbar-toggler {
     font-size: 1.25rem;
     line-height: 1;
@@ -220,12 +228,12 @@ font-size: small;
     border-image: initial;
     border-radius: 0.25rem;
 }
-/*--------------------------------------------nav*/
+/*--------------------------------------------nav end*/
 /*--------------------------------------------hero-section*/
+
 .hero-image{
   height: 100%;
-   width: 100%;
-    
+  width: 100%;
   background-image: url("../assets/images/core.jpg");
   background-size: cover;
   background-position: center;
@@ -235,45 +243,43 @@ font-size: small;
   animation-duration: 7s;
   animation-fill-mode: forwards;
   animation-iteration-count: 2;
- }
+}
 
  
 
  #hero-cover{
      height: 600px;
-              width: 100%;
+     width: 100%;
     overflow: hidden;
 }
 
 .image-content{
-    color: whitesmoke;
-   
-    margin: auto;
-   width: fit-content;
-   border: none;
-   padding: 10px;
-   text-align: center;
-   font-family: "Raleway", sans-sarif;
-  
-    top: 200px;
-    background: rgba(255, 107, 255, 0.4);
+  color: whitesmoke;
+  margin: auto;
+  width: fit-content;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-family: "Raleway", sans-sarif;
+  top: 200px;
+  background: rgba(255, 107, 255, 0.4);
   position:relative;
 }
  
-  @keyframes hero-img {
+ @keyframes hero-img { /**----inspired by code institue tutorial**/
   from {
     transform: scale(1);
 
-  }
+}
   to {
     transform: scale(1.1);
 
-  }
- }
+}
+}
 
  
 
-/*--------------------------------------------hero-section*/
+/*--------------------------------------------hero-section end */
 
 /*--------------------------------------------mid-section index.html*/
 
@@ -300,20 +306,23 @@ font-size: small;
   text-decoration-color: rgb(137,216,240);
   position:relative;
 }
+
 .button-align{
-    margin: auto;
+  margin: auto;
   width: 50%;
   border: none;
   padding: 10px;
 }
+
  .sec-align{
-     position: relative;
- }
+  position: relative;
+}
 
 .question-sec {
- line-height: 4;
-   margin: 15px;
-    }
+  line-height: 4;
+  margin: 15px;
+}
+
 .question-sec li {
     list-style: none;
     text-align: justify;
@@ -340,56 +349,65 @@ font-size: small;
     border-radius: 50%;
     margin: 20px;
 }
+
  .img-background{
      background: no-repeat center center;
      border-radius: 50%;
      height: 100%;
 
- }
+}
  .ask{
   width: 100%;
   max-width: 930px;
   margin: 50px auto;
-  }
-  .d-flex {display: flex !important;
-  }
+}
+
+  .d-flex {display: flex !important; /**----inspired by w3school and mdn web docs**/
+}
+
   .justify-content {
    justify-content: space-between !important;
-   }
+}
 
  .list-styl{
  list-style: none;
    padding-left: 0;
-   }
+}
+
 
  .ask ul li { position: relative;
    padding-left: 35px;
    line-height: 3;
- }
+}
 
  .mid-sec{
   max-width: 700px;
   margin: 50px auto;
-  }
+}
+
  .sec-img{
   max-width: 300px;
   max-height: 300px;
-  }
+}
+
   .mid-sec-card{
     max-width: 300px;
     border: none;
-  }
+}
+
  @media(max-width:420px) {
  .mid-sec{ margin: auto;
        padding: 40px;
-     }
-  }
-    @media(max-width:420px) {
+}
+}
+ @media(max-width:420px) {
  .ask{ display: block !important;
       margin: 10px auto;
       
-     }
-  }
+}
+}
+/*--------------------------------------------mid-section index.html end*/
+
  /*--------------------------------------------form section*/
 
 .form-main{
@@ -401,7 +419,7 @@ font-size: small;
 
 .form-bg-image {
  
-    width: 100%;
+ width: 100%;
     
   background-image: url("../assets/images/woman-lifting-barbell.jpg");
   background-size: cover;
@@ -409,6 +427,7 @@ font-size: small;
   background-repeat: no-repeat;
  height: 1100px;
 }
+
 .form-align{
     margin: auto;
     width: 50%;
@@ -428,6 +447,7 @@ font-size: small;
     border: 1px solid white;
     border-radius: 3px;
 }
+
 .form-heading{
     background: transparent;
     color: whitesmoke;
@@ -437,18 +457,22 @@ font-size: small;
 .label{
     margin-bottom: 0;
 }
+
 .custom-control-inline{
     margin: 15px;
 }
  @media(max-width:420px) {
  .form-align{ width: 100%;
-    top: 0; }
-  }
+    top: 0;
+}
+}
+ /*--------------------------------------------form section end*/
+
   /*--------------------------------------------recipe card section*/
 
   .grid-item{
     margin-bottom: 20px;
-    }
+}
   
 
 .grid-item:last-child{
@@ -460,6 +484,9 @@ font-size: small;
     color: whitesmoke;
     background: rgb(137,216,240);
 }
+ /*--------------------------------------------recipe card section end*/
+
+
 /*--------------------------------------------recipe individual section*/
 
 .recipe-content{
@@ -471,6 +498,8 @@ margin: 0 auto;
     width: 100%;
     overflow: hidden;
 }
+/*--------------------------------------------recipe individual section end*/
+
 /*--------------------------------------------success story*/
 
 
@@ -482,6 +511,8 @@ margin: 0 auto;
 .success-bottom-margin{
     margin-bottom: 50px;
 }
+/*--------------------------------------------success story end*/
+
  /*--------------------------------------------footer*/
  footer {
     background-color: #cc52cc;
@@ -495,7 +526,7 @@ margin: 0 auto;
 .social-links {
     padding-bottom: 10px;
 }
-.social-links li a i {
+.social-links li a i { /**----inspired by code institue tutorial**/
    
     width: 30px;
     height:30px;
@@ -534,11 +565,13 @@ margin: 0 auto;
     text-align: end;
 
  }
+
 .footer-link a {
     text-decoration: none;
     color: inherit;
    
 }
+
 .footer-link a i {
      width: 30px;
     height:30px;
@@ -555,16 +588,17 @@ margin: 0 auto;
     -o-transition: all .40s ease-in-out;
 
 }
+
 .footer-link a i:hover{
      background-color:rgb(137,216,240);
- }
+}
 
  
 
  .footer-align{
      position: relative;
 
- }
+}
  .footer-right-align{
      position: absolute;
   right: 0px;
@@ -572,4 +606,4 @@ margin: 0 auto;
   border: none;
   
 
- }
+}

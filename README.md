@@ -13,7 +13,7 @@ therefore rendering easy access and support to their dietary plan.
 #### WORKOUTS & PROGRAMS
 The shared workout programs serve as a detailed, well explained guide for users looking to build or tone their body muscles.by following the step by step instructions.    
 
-## SUCCESS STORIES
+### SUCCESS STORIES
 The success stories feature real-persons struggles, motivations, hacks and tips to support and encourage users thinking of making healthy lifestyle changes but get held back by a reason or more.   
 
 #### SHARE YOUR JOURNEY:
@@ -26,7 +26,8 @@ It is a signup form that gives you the opportunity to share your health & fitnes
 3. Comments and interactions on shared contents.
 
 ## Technologies Used
-1. Html: Html5 is used to create the web pages
+1. Html: Html5 is used to create the web pages    
+[HTML](https://validator.w3.org/) 
 
 2. CSS is used to style, present and layout parts of  the webpages
 [CSS](https://www.w3.org/Style/CSS/Overview.en.html)  
@@ -51,9 +52,11 @@ Tried submitting an empty form but the required field set won’t let it happen 
 Lastly the project is responsive on all devices thanks to the use of bootstraps mobile first approach. 
 
 ## Deployment
+Ater pushing from my workspace to my git repository, then  settings via my repository: github pages then master branch.   
 
 
 ## Credits
+Got some of my inspiration from my tutorials and classes with code Institute.
 
 
 ## Media
