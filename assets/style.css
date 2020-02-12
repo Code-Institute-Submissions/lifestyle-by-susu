@@ -537,7 +537,7 @@ margin: 0 auto;
      font-family: 'Josefin Sans', sans-serif;
      font-weight: 400;
      font-size: 20px;
-     margin: 15px;
+     margin: 15px
 }
 .success-bottom-margin{
     margin-bottom: 50px;
@@ -550,6 +550,25 @@ margin: 0 auto;
 #article-image2{
     width: 100%;
     overflow: hidden;
+}
+
+.mobile-align{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgb(137,216,240);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+@media(max-width:420px) {
+ .mobile-align{
+    width: 100%;
+    font-weight: 400;
+    font-size: 100%;
+    letter-spacing: 4px;
+    
+}
 }
 /*--------------------------------------------success story end*/
 
