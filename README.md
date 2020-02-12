@@ -4,6 +4,7 @@ by cutting through the confusion and sharing personal accounts designed to suppo
 
 ## UX
 This project is targeting people looking to make healthier lifestyle changes, to empower them in their fitness journey with helpful information & techniques that will help them make healthier choices.    
+[Wireframe](lifestyle-by-susu/assets/wireframe/)  
 
 ## Features
 #### HEALTHY RECIPES
@@ -53,6 +54,8 @@ Also the project is responsive on all devices thanks to the use of bootstraps mo
 3. Tested on google development tool for all the reponsive breakpoints.    
 4. Tested on mozilla firefox, internet explorer, Brave web browser    
 5. Tested on two different mobile devices.
+6. check my html code via [html](https://validator.w3.org/#validate_by_input) and made the necessary changes  
+7. css validated [css](https://jigsaw.w3.org/css-validator/)
 
 ## Deployment
 Ater pushing from my workspace to my git repository, then  settings via my repository: github pages then master branch.    

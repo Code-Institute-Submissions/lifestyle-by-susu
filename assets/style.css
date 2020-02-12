@@ -494,11 +494,41 @@ display: block;
 margin: 0 auto;
 }
 
-#article-image{
+
+#recipe-image{
     width: 100%;
     overflow: hidden;
 }
+
+#recipe-image2{
+    width: 100%;
+    overflow: hidden;
+}
+#recipe-image3{
+    width: 100%;
+    overflow: hidden;
+}
+
+
 /*--------------------------------------------recipe individual section end*/
+
+/*--------------------------------------------workout section*/
+
+#workout-image{
+    width: 100%;
+    overflow: hidden;
+}
+
+#workout-image2{
+    width: 100%;
+    overflow: hidden;
+}
+
+#workout-image3{
+    width: 100%;
+    overflow: hidden;
+}
+/*--------------------------------------------workout section end*/
 
 /*--------------------------------------------success story*/
 
@@ -507,9 +537,19 @@ margin: 0 auto;
      font-family: 'Josefin Sans', sans-serif;
      font-weight: 400;
      font-size: 20px;
+     margin: 15px;
 }
 .success-bottom-margin{
     margin-bottom: 50px;
+}
+
+#article-image{
+    width: 100%;
+    overflow: hidden;
+}
+#article-image2{
+    width: 100%;
+    overflow: hidden;
 }
 /*--------------------------------------------success story end*/
 
